@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col v-for="item in toDoList" :key="item.id" cols="12" md="4">
-        <v-card class="mx-auto">
+        <v-card class="mx-auto" min-height="350px">
           <v-img
             class="white--text align-end"
             height="200px"
